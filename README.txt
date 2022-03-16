@@ -11,11 +11,6 @@ Technologies used
 
 Difficulties
 
-	The most difficult part of this project some work with MySQL and Node.js, specificly getting data from databese. This was coused becouse of complexity of the database:
-	Databese is created in a way that there are three tables with many to many relationships - this is in order to later extract and analyze data (how many people like this type of food etc.)
+	The most difficult part of this project was some work with MySQL and Node.js, specificly getting data from databese. This was coused becouse of complexity of the database:
+	Databese is created in a way that there are three tables with many to many relationships - this is in order to later extract and analyze data (how many people like this 	 type of food etc.)
 	At the end getting the data works with just one very long query, but it gives all the important data that later is used on page with help of ejs. 
-
-	
-
-	
-
