@@ -1,7 +1,7 @@
 Hi! This is my project called 'Szopixa 2022'. Thanks for checking it! (You can see how the page looks in 'Screenshots' folder)
 
 Main Idea
-	Every year i organise a party called 'Szopixa' and that's why I created this page. It encourages to participate in the party and also gives some needed informations.
+	Every year i organise a party called 'Szopixa' and that's why I created this page. It encourages to participate in the party and also gives some needed information.
 	Main functionality is a possibility to sign up for a party.
 
 Technologies used
