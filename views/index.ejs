@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Oleo+Script:wght@700&family=Quicksand:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/shared.css" />
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <script src="/js-views/form-display.js" defer></script>
+    <script src="/js-views/countdown.js" defer></script>
+    <title>Szoparty 2022</title>
+  </head>
+  <body>
+    <aside id="form-background"></aside>
+    <%- include('includes/header')  %>
+    <main>
+      <section id="hero">
+        <div id="hero_content">
+          <h1>Welcome party people!</h1>
+          <p>We will take u on an amazing journey</p>
+          <a href="#particip-form">Sign Up!</a>
+          <p2>SzoParty 2022 starts in</p2>
+          <div id="countdown_container">
+            <div class="countdown-el">
+              <div id="days" class="countdown-num">0</div>
+              <div class="countdown-description">Days</div>
+            </div>
+            <div class="countdown-el">
+              <div id="hours" class="countdown-num">0</div>
+              <div class="countdown-description">Hours</div>
+            </div>
+            <div class="countdown-el">
+              <div id="minutes" class="countdown-num">0</div>
+              <div class="countdown-description">Minutes</div>
+            </div>
+            <div class="countdown-el">
+              <div id="seconds" class="countdown-num">0</div>
+              <div class="countdown-description">Seconds</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="highlights">
+        <h2>Beautiful moments await you</h2>
+        <ul id="destinations">
+          <li class="destination">
+            <img src="/images/places/szopixa.jpg" alt="jpg ognisko" />
+            <p><strong>fireplace and grill</strong></p>
+          </li>
+          <li class="destination">
+            <img src="/images/places/impreza.jpg" alt="jpg picie" />
+            <p><strong>Drinking various beverages</strong></p>
+          </li>
+          <li class="destination">
+            <img src="/images/places/chionl.jpg" alt="jpg chinol" />
+            <p><strong>shared adventures</strong></p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <aside id="particip-form">
+      <header>
+        <h2>Membership survey</h2>
+        <a href="#" class="menu-btn"
+          ><svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"
+            ></path>
+          </svg>
+        </a>
+      </header>
+      <form action="/" method="post">
+        <main>
+          <section id="Dane">
+            <label for="username">Name</label>
+            <input type="text" name="name" id="username" required />
+
+            <label for="usersurname">Surname</label>
+            <input type="text" name="surname" id="usersurname" required />
+
+            <label for="useremail">Email</label>
+            <input type="email" name="email" id="useremail" required />
+
+            <label for="alcohol">Favorite beverage</label>
+            <input type="text" id="alkohol" name="beverage" required />
+
+            <label for="userfood">Favorite food</label>
+            <input type="text" name="food" id="userfood" required />
+          </section>
+          <section id="warunki">
+            <input type="checkbox" name="checklist" id="terms" required />
+            <label for="terms"><a href="/">Conditions of participation</a></label>
+          </section>
+
+          <button type="submit">Submit!</button>
+        </main>
+      </form>
+    </aside>
+    <%- include('includes/footer')  %>
+  </body>
+</html>

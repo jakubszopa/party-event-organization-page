@@ -1,0 +1,62 @@
+h1 {
+    color: rgb(232, 255, 255);
+    text-align: center;
+}
+
+#participants-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 40%;
+}
+
+#participant-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    margin: 20px 0;
+}
+
+#participant-container p {
+    margin: 10px;
+}
+
+html, body {
+    height: 100%;
+}
+
+body{
+    background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
+    color: rgb(68, 68, 68);
+    align-items: center;
+    height: max-content;
+}
+
+#page-logo a{
+    color: rgb(183, 230, 235);
+}
+
+header{
+    position: static;
+}
+
+header a{
+    color: rgb(183, 230, 235);
+}
+
+header nav a:hover{
+    background-color: rgb(183, 230, 235);
+    color: rgb(59, 59, 59);
+}
+
+hr {
+    width: 80%;
+}
+
+footer {
+    width: 100%;
+}
